@@ -1,7 +1,7 @@
 from sqlmodel import Session, select
 
-from app.auth.principal import Principal
-from app.models import Team, TeamMembership, UserIdentity
+from auth.principal import Principal
+from models import Team, TeamMembership, UserIdentity
 
 
 def get_user_team(session: Session, google_subject: str):

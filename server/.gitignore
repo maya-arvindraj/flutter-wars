@@ -3,4 +3,4 @@ __pycache__/
 .pytest_cache/
 .env
 *.db
-.wrangler/
+.wrangler/rm -rf server/core/__pycache__
